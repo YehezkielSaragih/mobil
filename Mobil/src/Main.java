@@ -3,6 +3,6 @@
 public class Main {
     public static void main(String[] args) {
 
-        Mobil mobil = new Mobil("B1807DZY", 2015)
+        Mobil mobil = new Mobil("B1807DZY", 2015);
     }
 }
