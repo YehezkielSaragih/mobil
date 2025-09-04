@@ -7,9 +7,17 @@ class Truk extends Mobil {
         this.tireCount = tireCount;
     }
 
-    public void printInfo(){
-        super.printInfo();
-        System.out.println();
+    // Set Get
+    public  void setTireCount(int tireCount) {
+        this.tireCount = tireCount;
+    }
+    public int getTireCount() {
+        return tireCount;
     }
 
+    //
+    public void printInfo(){
+        super.printInfo();
+        System.out.println("Tire count = "+tireCount);
+    }
 }

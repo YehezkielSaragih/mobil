@@ -27,7 +27,13 @@ public class Mobil {
     // Method
     public void printInfo() {
         System.out.println("Info Mobil\n");
-        System.out.println("Police Number = "+getPoliceNumber());
-        System.out.println("Year = "+getYear());
+        System.out.println("Police Number = "+policeNumber);
+        System.out.println("Year = "+year);
+    }
+    public void drive(){
+        System.out.println("Police Number "+policeNumber+" start engine");
+    }
+    public void brake(){
+        System.out.println("Police Number "+policeNumber+" stop");
     }
 }
