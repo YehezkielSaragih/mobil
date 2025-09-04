@@ -5,13 +5,13 @@ public class Mobil {
     private int year;
 
     // Constructor
-    public Mobil(String policeNumber, int tahun){
+    public Mobil(String policeNumber, int year){
         this.policeNumber = policeNumber;
-        this.year = tahun;
+        this.year = year;
     }
 
     // Set Get
-    public void setPoliceNumber(String nama) {
+    public void setPoliceNumber(String policeNumber) {
         this.policeNumber = policeNumber;
     }
     public String getPoliceNumber() {
@@ -26,6 +26,8 @@ public class Mobil {
 
     // Method
     public void printInfo() {
-        System.out.println("Info Mobil");
+        System.out.println("Info Mobil\n");
+        System.out.println("Police Number = "+getPoliceNumber());
+        System.out.println("Year = "+getYear());
     }
 }
