@@ -5,12 +5,12 @@ public class Sedan extends Mobil{
 
     // Constructor
     public Sedan(String policeNumber, int year, int seatCapacity){
-        super(policeNumber, seatCapacity);
+        super(policeNumber, year);
         this.seatCapacity=seatCapacity;
     }
 
     // Set Get
-    public void setCaoacity(String caoacity) {
+    public void setSeatCapacity(int seatCapacity) {
         this.seatCapacity = seatCapacity;
     }
     public int getSeatCapacity() {

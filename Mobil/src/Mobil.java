@@ -26,7 +26,7 @@ public class Mobil {
 
     // Method
     public void printInfo() {
-        System.out.println("Info Mobil\n");
+        System.out.println("\nInfo Mobil\n");
         System.out.println("Police Number = "+policeNumber);
         System.out.println("Year = "+year);
     }
